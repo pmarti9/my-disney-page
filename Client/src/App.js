@@ -1,16 +1,18 @@
-import React from 'react'
-import './App.css';
-import DisneyArticles from "../src/components/DisneyArticles/DisneyArticles"
-import Navigation from './components/Navigation/Navigation';
+import React, { Component } from "react";
+// import logo from "./logo.svg";
+import "./App.css";
+import DisneyArticles from "./components/DisneyArticles/DisneyArticles"
+import Navigation from "./components/Navigation/Navigation"
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Disney App!</h1>
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
       <DisneyArticles />
-      <Navigation />
-    </div>
-  );
+      <Navigation /> 
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function disneyArticles() {
+function DisneyArticles() {
 
     return (
     <div>
@@ -8,4 +8,4 @@ function disneyArticles() {
     </div>
     )
 }
-export default disneyArticles
+export default DisneyArticles;
